@@ -1,0 +1,30 @@
+
+body{
+    background-color: black;
+    color: #fff;
+    cursor: default;
+    
+}
+.time{
+    font-size: 100px;
+    text-align: center;
+    color: rgb(9, 253, 9);
+}
+.date{
+    font-size: 50px;
+    transition: all;
+    text-align: center;
+    color: blueviolet;
+    cursor: all-scroll;
+}
+.words{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+.hours, .minutes, .seconds, .day, .month, .year{
+    box-shadow: 0px 0px 10px rgb(56, 247, 88);
+}
+.hours:hover, .minutes:hover, .seconds:hover, .day:hover, .month:hover, .year:hover{
+    box-shadow: 0px 0px 10px red;
+}
